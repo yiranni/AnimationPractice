@@ -1,0 +1,34 @@
+html {
+    font-size: 22px;
+}
+
+body {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    background-color: #fdfcf4;
+}
+
+.card img{
+    /* padding: 1rem; */
+    width: 40vw;
+    height: 25vw;
+}
+
+.static {
+    position:absolute;
+    background: white;
+  }
+  
+  .static:hover {
+    opacity:0;
+  }
+
+.cards {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+
